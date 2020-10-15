@@ -9,6 +9,7 @@ import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
+import CkFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import ExportToWord from '@ckeditor/ckeditor5-export-word/src/exportword.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
@@ -41,8 +42,9 @@ import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/un·derline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
+import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder.js';
 
 class Editor extends ClassicEditor {}
 
@@ -52,6 +54,7 @@ Editor.builtinPlugins = [
 	Autoformat,
 	BlockQuote,
 	Bold,
+	CKFinder,
 	Code,
 	CodeBlock,
 	Essentials,
